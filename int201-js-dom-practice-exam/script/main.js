@@ -25,6 +25,19 @@ addItemBtn.addEventListener("click", () => {
   ul.appendChild(li);
 });
 
+//me
+// const clickAdd = document.getElementById('add-btn')
+
+// clickAdd.addEventListener('click', (event) => {
+//     event.preventDefault()
+//     const input = document.getElementById('item-input')
+//     const li = document.createElement('li')
+//     li.textContent = `${input.value}`
+//     const ul = document.querySelector('ul')
+//     ul.appendChild(li)
+// })
+
+
 const createLiElement = (item) => {
   const li = document.createElement("li");
   li.textContent = item;
